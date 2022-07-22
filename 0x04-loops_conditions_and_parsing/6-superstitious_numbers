@@ -26,5 +26,5 @@ do
 	    ;;
     esac
 
-    let cont+=1
+    ((cont+=1))
 done
