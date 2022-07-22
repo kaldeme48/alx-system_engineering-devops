@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# displays bad luck good luck and Best School.
+
+cont=1
+while [ $cont -lt 11 ]
+do
+    if [ $cont = 4 ]
+    then
+        echo "bad luck"
+    elif [ $cont = 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((cont+=1))
+done

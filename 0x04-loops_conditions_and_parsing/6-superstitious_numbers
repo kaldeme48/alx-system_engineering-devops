@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# displays numbers from 1 to 20.
+
+cont=1
+while [ $cont -lt 21 ]
+do
+    case $cont in
+
+        4)
+	    echo $cont
+	    echo "bad luck from China"
+	    ;;
+	
+	9)
+	    echo $cont
+	    echo "bad luck from Japan"
+	    ;;
+	
+	17)
+	    echo $cont
+	    echo "bad luck from Italy"
+	    ;;
+
+	*)
+	    echo $cont
+	    ;;
+    esac
+
+    let cont+=1
+done
